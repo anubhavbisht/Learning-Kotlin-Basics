@@ -1,0 +1,31 @@
+fun main(){
+  print("hello world \n")
+  var myname="Anubhav"
+  print("hello"+myname)
+  myname="Bisht"
+  print("hello"+myname)
+}
+
+fun main() {
+    var coursename:String ="Android Masterclass"
+    var value:Float=13.37F
+    var value1:Double=3.145953434
+    var value2:Int=25	
+    var value5:Long=2020
+    var value3:Boolean=true
+    var value4:Char='A'
+    print(coursename)
+    print(value2)
+    print(value1)
+    print(value3)
+    print(value4)
+    print(value5)
+}
+
+fun main() {
+    var x=12
+    print("hello ${x>10}")
+}
+
+
+

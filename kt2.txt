@@ -1,0 +1,45 @@
+Arraylist
+
+fun main(){
+  val array=ArrayList<String>()
+  array.add("Anubhav")
+  array.add("Bisht")
+  println("Printing contents of array")
+  for (i in array){
+    println(i)
+  }
+}
+
+fun main(){
+  val array=ArrayList<String>(5)
+  val list=mutableListOf<String>()
+  list.add("1")
+  list.add("2")
+  array.addAll(list)
+  val i=array.iterator()
+  while(i.hasNext()){
+    println(i.next())
+  }
+  println(array.get(0))
+}
+
+fun main(){
+  val array=ArrayList<Double>()
+  array.add(1.23)
+  array.add(2.23)
+  array.add(3.23)
+  array.add(4.23)
+  array.add(5.23)
+  var count:Double=0.0
+  for (i in array){
+    count+=i
+  }
+  println("Average of all elements of array is")
+  print(count/5)
+}
+
+fun main(){
+  val sum={a:Int,b:Int->a+b}
+  println(sum(3,4))
+}
+
